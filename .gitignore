@@ -1,0 +1,11 @@
+node_modules/
+npm-debug.log
+npm-debug.log*
+yarn.lock
+
+# jupyter
+notebooks/**/.ipynb_checkpoints/
+demos/notebooks/.ipynb_checkpoints/
+
+# misc
+.DS_Store

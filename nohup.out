@@ -1,0 +1,82 @@
+[I 06:00:17.223 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 06:00:17.773 NotebookApp] Serving notebooks from local directory: /home/ubuntu/keras-js
+[I 06:00:17.773 NotebookApp] 0 active kernels 
+[I 06:00:17.773 NotebookApp] The Jupyter Notebook is running at: https://[all ip addresses on your system]:8888/
+[I 06:00:17.773 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 06:00:51.393 NotebookApp] 302 GET / (1.187.38.252) 0.57ms
+[I 06:00:51.757 NotebookApp] 302 GET /tree (1.187.38.252) 0.75ms
+[I 06:01:05.753 NotebookApp] 302 POST /login?next=%2Ftree (1.187.38.252) 0.93ms
+[I 06:12:20.178 NotebookApp] Saving file at /demos/src/menu.template.html
+[I 06:54:36.243 NotebookApp] Saving file at /demos/src/bAbI-tasks/bAbI-tasks.js
+[I 06:57:00.263 NotebookApp] Saving file at /demos/src/bAbI-tasks/bAbI-tasks.css
+[I 06:58:17.382 NotebookApp] Saving file at /demos/src/bAbI-tasks/bAbI-tasks.template.html
+[I 06:59:44.507 NotebookApp] Saving file at /demos/src/bAbI-tasks/bAbI-tasks.js
+[C 08:45:30.715 NotebookApp] received signal 15, stopping
+[I 08:45:30.716 NotebookApp] Shutting down kernels
+[I 11:20:35.199 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 11:20:35.790 NotebookApp] Serving notebooks from local directory: /home/ubuntu/keras-js
+[I 11:20:35.790 NotebookApp] 0 active kernels 
+[I 11:20:35.790 NotebookApp] The Jupyter Notebook is running at: https://[all ip addresses on your system]:8888/
+[I 11:20:35.790 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 11:21:07.611 NotebookApp] 302 GET /tree/demos/src/bAbI-tasks (27.58.63.37) 1.11ms
+[I 11:21:18.360 NotebookApp] 302 POST /login?next=%2Ftree%2Fdemos%2Fsrc%2FbAbI-tasks (27.58.63.37) 1.11ms
+[I 11:38:42.073 NotebookApp] Saving file at /demos/src/bAbI-tasks/bAbI-tasks.template.html
+[I 11:39:28.198 NotebookApp] Saving file at /demos/src/bAbI-tasks/bAbI-tasks.template.html
+[W 11:44:23.533 NotebookApp] delete /demos/src/bAbI-tasks/bAbI-tasks.js.save
+[I 11:52:34.943 NotebookApp] Saving file at /demos/src/bAbI-tasks/bAbI-tasks.js
+[C 12:06:39.744 NotebookApp] received signal 15, stopping
+[I 12:06:39.744 NotebookApp] Shutting down kernels
+[I 09:49:20.205 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 09:49:20.746 NotebookApp] Serving notebooks from local directory: /home/ubuntu/keras-js
+[I 09:49:20.746 NotebookApp] 0 active kernels 
+[I 09:49:20.746 NotebookApp] The Jupyter Notebook is running at: https://[all ip addresses on your system]:8888/
+[I 09:49:20.746 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 09:49:44.360 NotebookApp] 302 GET / (106.221.134.132) 0.69ms
+[I 09:49:44.718 NotebookApp] 302 GET /tree (106.221.134.132) 0.81ms
+[I 09:49:56.201 NotebookApp] 302 POST /login?next=%2Ftree (106.221.134.132) 1.15ms
+[I 09:51:02.635 NotebookApp] Uploading file to /demos/src/bAbI-tasks/bAbI-tasks.arch.js
+[I 09:52:22.249 NotebookApp] Saving file at /demos/src/bAbI-tasks/bAbI-tasks.js
+[I 09:53:59.075 NotebookApp] Saving file at /demos/src/bAbI-tasks/bAbI-tasks.js
+[I 09:57:51.551 NotebookApp] Saving file at /demos/src/bAbI-tasks/bAbI-tasks.template.html
+[I 09:58:15.061 NotebookApp] Saving file at /demos/src/bAbI-tasks/bAbI-tasks.template.html
+[I 09:59:13.793 NotebookApp] Saving file at /demos/src/bAbI-tasks/bAbI-tasks.template.html
+[I 10:00:32.738 NotebookApp] Saving file at /demos/src/bAbI-tasks/bAbI-tasks.js
+[I 10:02:06.199 NotebookApp] Saving file at /demos/src/bAbI-tasks/bAbI-tasks.arch.js
+[I 11:30:51.163 NotebookApp] Saving file at /demos/src/bAbI-tasks/bAbI-tasks.js
+[I 11:34:57.591 NotebookApp] Saving file at /demos/src/index.js
+[I 11:36:12.576 NotebookApp] Saving file at /demos/src/index.js
+[I 11:38:05.819 NotebookApp] Saving file at /demos/src/menu.template.html
+[I 11:41:13.197 NotebookApp] Saving file at /demos/src/bAbI-tasks/bAbI-tasks.css
+[W 11:58:46.907 NotebookApp] delete /demos/src/bAbI-tasks/bAbI-tasks.js
+[W 11:58:46.909 NotebookApp] delete /demos/src/bAbI-tasks/bAbI-tasks.css
+[W 11:58:47.267 NotebookApp] delete /demos/src/bAbI-tasks/bAbI-tasks.template.html
+[I 12:02:34.018 NotebookApp] Saving file at /demos/src/bAbI-tasks/bAbI-tasks.template.html
+[I 12:04:34.507 NotebookApp] Saving file at /demos/src/bAbI-tasks/bAbI-tasks.js
+[I 12:06:47.666 NotebookApp] Saving file at /demos/src/bAbI-tasks/bAbI-tasks.js
+[I 12:10:23.428 NotebookApp] Saving file at /demos/src/bAbI-tasks/bAbI-tasks.js
+[I 12:17:26.543 NotebookApp] Saving file at /demos/src/index.js
+[C 12:22:56.307 NotebookApp] received signal 15, stopping
+[I 12:22:56.308 NotebookApp] Shutting down kernels
+[I 07:04:20.414 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 07:04:20.997 NotebookApp] Serving notebooks from local directory: /home/ubuntu/keras-js
+[I 07:04:20.997 NotebookApp] 0 active kernels 
+[I 07:04:20.997 NotebookApp] The Jupyter Notebook is running at: https://[all ip addresses on your system]:8888/
+[I 07:04:20.997 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 07:05:12.517 NotebookApp] 302 GET / (106.79.155.240) 0.61ms
+[I 07:05:12.849 NotebookApp] 302 GET /tree (106.79.155.240) 0.87ms
+[I 07:05:32.351 NotebookApp] 302 POST /login?next=%2Ftree (106.79.155.240) 0.88ms
+[I 07:06:49.064 NotebookApp] Saving file at /demos/src/bAbI-tasks/bAbI-tasks.css
+[W 07:49:28.659 NotebookApp] SSL Error on 9 ('94.102.49.174', 46723): [Errno 1] _ssl.c:510: error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number
+[W 09:37:30.846 NotebookApp] SSL Error on 9 ('91.196.50.33', 50900): [Errno 1] _ssl.c:510: error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number
+[C 13:24:22.010 NotebookApp] received signal 15, stopping
+[I 13:24:22.010 NotebookApp] Shutting down kernels
+
+> keras-js@0.1.0 server /home/ubuntu/keras-js
+> http-server . -c-1 -p 6006
+
+[33mStarting up http-server, serving [39m[36m.[39m[33m
+Available on:[39m
+[32m  http://127.0.0.1:6006[39m
+[32m  http://172.31.21.162:6006[39m
+Hit CTRL-C to stop the server
+[31mhttp-server stopped.[39m

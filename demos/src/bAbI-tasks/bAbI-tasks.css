@@ -1,0 +1,108 @@
+@import '../variables.css';
+
+.demo.bAbI-tasks {
+ .columns.input-output {
+    max-width: 800px;
+    margin: 0 auto;
+
+   .column {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  .column.input-column {
+    justify-content: center;
+    .input-container {
+      text-align: right;
+      margin: 5px 5px 5px 20px;
+      position: relative;
+      .mdl-textfield {
+        width: 450px;
+        textarea {
+          color: $color-3;
+          font-family: $font-1;
+          font-size: 16px;
+          padding: 10px;
+        }
+      }
+      .mdl-select {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      }
+      .input-buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .input-load-button,
+        .input-clear-button {
+          display: flex;
+          align-items: center;
+          color: $color-2;
+          transition: color 0.2s ease-in;
+          .material-icons {
+            margin-right: 5px;
+          }
+          &:hover {
+            color: $color-1-lighter;
+            cursor: pointer;
+          }
+         }
+        .input-load-button {
+          &:hover { color: $color-1; }
+         }
+      }
+    }
+  }
+
+  .column.output-column {
+    justify-content: center;
+
+    .output {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+      cursor: default;
+        .output-class {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          padding: 6px 0;
+
+          .output-label {
+            text-align: right;
+            width: 100px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-family: $font-2;
+            font-size: 12px;
+            color: $color-2;
+            padding: 0 4px;
+            border-right: 2px solid $color-1-lighter;
+          }
+
+          .output-bar {
+            height: 8px;
+            transition: width 0.2s ease-out;
+          }
+
+          .output-value {
+            text-align: left;
+            margin-left: 5px;
+            font-family: $font-2;
+            font-size: 12px;
+            color: $color-2;
+          }
+        }
+     }
+    }
+  }
+ }
+

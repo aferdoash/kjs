@@ -1,0 +1,96 @@
+{
+  "name": "keras-js",
+  "version": "0.1.0",
+  "description": "Run Keras models (tensorflow backend) in the browser, with GPU support",
+  "scripts": {
+    "lint": "standard src test",
+    "watch": "webpack --watch --config webpack.dev.config.js",
+    "build": "npm run lint && webpack --config webpack.prod.config.js",
+    "watch:demos": "cd demos && webpack --watch --config webpack.dev.config.js",
+    "build:demos": "cd demos && webpack --config webpack.prod.config.js",
+    "server": "http-server . -c-1 -p 6006"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/transcranial/keras-js.git"
+  },
+  "keywords": [
+    "keras",
+    "deep",
+    "learning",
+    "machine",
+    "learning",
+    "neural",
+    "networks",
+    "javascript",
+    "webgl",
+    "gpu"
+  ],
+  "author": "Leon Chen <leon@md.ai>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/transcranial/keras-js/issues"
+  },
+  "homepage": "https://github.com/transcranial/keras-js#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "cwise": "^1.0.9",
+    "lodash": "^4.16.4",
+    "ndarray": "^1.0.18",
+    "ndarray-blas-level2": "^1.1.0",
+    "ndarray-concat-rows": "^1.0.1",
+    "ndarray-gemm": "^1.0.0",
+    "ndarray-ops": "^1.2.2",
+    "ndarray-squeeze": "^1.0.2",
+    "ndarray-tile": "^1.0.3",
+    "ndarray-unpack": "^1.0.0",
+    "ndarray-unsqueeze": "^1.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "axios": "^0.15.2",
+    "babel-core": "^6.18.0",
+    "babel-eslint": "^7.0.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-async-to-module-method": "^6.16.0",
+    "babel-plugin-transform-class-properties": "^6.18.0",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "http-server": "^0.9.0",
+    "postcss-loader": "^1.0.0",
+    "precss": "^1.4.0",
+    "raw-loader": "^0.5.1",
+    "standard": "^8.4.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.1.0-beta.25"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": [
+      "KerasJS",
+      "chai",
+      "testGlobals",
+      "TEST_DATA",
+      "weblas",
+      "performance"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ],
+    "plugins": [
+      "transform-class-properties",
+      "transform-object-rest-spread",
+      [
+        "transform-async-to-module-method",
+        {
+          "module": "bluebird",
+          "method": "coroutine"
+        }
+      ]
+    ]
+  }
+}
